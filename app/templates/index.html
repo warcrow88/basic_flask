@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Hi, {{ name }} </h1>
+    <h2>The number passed in is {{num}}</h2>
+    <p>Python Fall Class Names</p>
+    <ul>
+      <li>{{ names[0] }}</li>
+      {% for name in names %}
+        {% if name == 'conner' %}
+          <li><b>{{ name }} - Instructor</b></li>
+        {% elif name == 'chet'%}
+          <li><i>{{ name }} - Student</i></li>
+        {% else %}
+          <li>{{ name }} - Student</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </body>
+</html>
+{% endblock %}

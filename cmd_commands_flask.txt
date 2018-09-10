@@ -337,4 +337,70 @@ Initialized empty Git repository in C:/Users/kelle/Documents/Coding Temple Cours
 
 (flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>echo>.gitignore
 
-(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git add .
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   app/__init__.py
+        new file:   app/routes.py
+        new file:   app/static/css/main.css
+        new file:   app/templates/base.html
+        new file:   app/templates/index.html
+        new file:   cmd_commands_flask.txt
+        new file:   main.py
+
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git commit -m "Initial Commit"
+[master (root-commit) 40bffd6] Initial Commit
+ 8 files changed, 344 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app/__init__.py
+ create mode 100644 app/routes.py
+ create mode 100644 app/static/css/main.css
+ create mode 100644 app/templates/base.html
+ create mode 100644 app/templates/index.html
+ create mode 100644 cmd_commands_flask.txt
+ create mode 100644 main.py
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git remote add origin https://github.com/warcrow88/basic_flask.git
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 4.43 KiB | 648.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/warcrow88/basic_flask.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>set FLASK_APP=main.py
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>set FLASK_DEBUG=1
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>flask run
+ * Serving Flask app "main.py" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-384-718
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/Sep/2018 11:08:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2018 11:08:18] "GET /favicon.ico HTTP/1.1" 404 -

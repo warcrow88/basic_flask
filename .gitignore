@@ -1,4 +1,5 @@
 ECHO is on.
-venv\
+venv/
+__pycache__/
 
-##### venv folder and all of its contents are now ignored when staging files to the repository
+##### venv folder and all of its contents are now ignored when staging files to the repository.  Never upload important information to github
