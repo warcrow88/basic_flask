@@ -1,0 +1,4 @@
+ECHO is on.
+venv\
+
+##### venv folder and all of its contents are now ignored when staging files to the repository

@@ -1,0 +1,340 @@
+Microsoft Windows [Version 10.0.17134.254]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\kelle>cd C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>jupyter notebook
+[I 14:52:44.336 NotebookApp] JupyterLab beta preview extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 14:52:44.336 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 14:52:44.511 NotebookApp] Serving notebooks from local directory: C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder
+[I 14:52:44.511 NotebookApp] 0 active kernels
+[I 14:52:44.511 NotebookApp] The Jupyter Notebook is running at:
+[I 14:52:44.511 NotebookApp] http://localhost:8888/?token=4e7052c5ee8ae5899310536cfc7412e4acf58d3fe2f47bdd
+[I 14:52:44.511 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:52:44.511 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4e7052c5ee8ae5899310536cfc7412e4acf58d3fe2f47bdd&token=4e7052c5ee8ae5899310536cfc7412e4acf58d3fe2f47bdd
+[I 14:52:44.802 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 14:53:44.677 NotebookApp] Kernel started: d6ff015b-71fb-4868-80bc-7d8e8d88ebcf
+[I 14:53:46.244 NotebookApp] Adapting to protocol v5.1 for kernel d6ff015b-71fb-4868-80bc-7d8e8d88ebcf
+[I 14:53:59.867 NotebookApp] Creating new notebook in
+[I 14:54:01.358 NotebookApp] Kernel started: df464465-e7ae-42a8-9397-46634fffa4bc
+[I 14:54:03.043 NotebookApp] Adapting to protocol v5.1 for kernel df464465-e7ae-42a8-9397-46634fffa4bc
+[W 14:54:15.526 NotebookApp] 409 PATCH /api/contents/Untitled4.ipynb (::1): File already exists: PAULSEN_BLACKJACK.ipynb
+[W 14:54:15.527 NotebookApp] File already exists: PAULSEN_BLACKJACK.ipynb
+[W 14:54:15.528 NotebookApp] 409 PATCH /api/contents/Untitled4.ipynb (::1) 3.98ms referer=http://localhost:8888/notebooks/Untitled4.ipynb?kernel_name=python3
+[W 14:54:17.588 NotebookApp] 409 PATCH /api/contents/Untitled4.ipynb (::1): File already exists: PAULSEN_BLACKJACK.ipynb
+[W 14:54:17.588 NotebookApp] File already exists: PAULSEN_BLACKJACK.ipynb
+[W 14:54:17.590 NotebookApp] 409 PATCH /api/contents/Untitled4.ipynb (::1) 2.98ms referer=http://localhost:8888/notebooks/Untitled4.ipynb?kernel_name=python3
+[I 14:56:01.354 NotebookApp] Saving file at /Untitled4.ipynb
+[I 14:59:39.500 NotebookApp] Interrupted...
+[I 14:59:39.502 NotebookApp] Shutting down 2 kernels
+[I 14:59:39.812 NotebookApp] Kernel shutdown: d6ff015b-71fb-4868-80bc-7d8e8d88ebcf
+[I 14:59:39.814 NotebookApp] Kernel shutdown: df464465-e7ae-42a8-9397-46634fffa4bc
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>p
+'p' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>pip install scene
+Collecting scene
+  Could not find a version that satisfies the requirement scene (from versions: )
+No matching distribution found for scene
+You are using pip version 10.0.1, however version 18.0 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>python
+Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pip install scene
+  File "<stdin>", line 1
+    pip install scene
+              ^
+SyntaxError: invalid syntax
+>>> pip install 'scene'
+  File "<stdin>", line 1
+    pip install 'scene'
+              ^
+SyntaxError: invalid syntax
+>>>
+KeyboardInterrupt
+>>> quit
+Use quit() or Ctrl-Z plus Return to exit
+>>> quit()
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>jupyter notebook
+[I 15:28:12.647 NotebookApp] JupyterLab beta preview extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 15:28:12.647 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 15:28:12.787 NotebookApp] Serving notebooks from local directory: C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder
+[I 15:28:12.787 NotebookApp] 0 active kernels
+[I 15:28:12.802 NotebookApp] The Jupyter Notebook is running at:
+[I 15:28:12.802 NotebookApp] http://localhost:8888/?token=9efbff6b7db525b745cdd3ffdd10cedb0b9f891d12ab5ff3
+[I 15:28:12.804 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:28:12.805 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=9efbff6b7db525b745cdd3ffdd10cedb0b9f891d12ab5ff3&token=9efbff6b7db525b745cdd3ffdd10cedb0b9f891d12ab5ff3
+[I 15:28:12.987 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 15:41:51.670 NotebookApp] Kernel started: 669013fd-f3a7-43e9-a4ea-d35e378f567b
+[I 15:41:53.549 NotebookApp] Adapting to protocol v5.1 for kernel 669013fd-f3a7-43e9-a4ea-d35e378f567b
+[I 15:41:53.935 NotebookApp] Kernel started: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 15:41:55.566 NotebookApp] Adapting to protocol v5.1 for kernel d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 16:05:51.582 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:07:51.979 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:09:51.567 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:11:51.563 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:13:51.562 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:17:51.563 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:19:32.986 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 16:19:51.973 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 16:19:53.985 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 16:23:53.931 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 16:25:53.974 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 16:27:53.981 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 16:37:53.931 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:13:53.917 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:15:53.918 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:19:53.961 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:27:53.918 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:37:53.961 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 17:39:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:05:51.553 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 20:05:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:07:51.550 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 20:07:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:09:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:11:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:13:53.944 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:15:53.914 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:17:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:19:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:21:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:23:53.917 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:25:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:27:00.605 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:27:53.920 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:29:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:31:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:33:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:37:53.919 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 20:39:51.552 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 20:39:53.962 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:01:51.552 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 21:01:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:03:53.931 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:04:02.033 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:05:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:07:53.922 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:08:44.679 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:08:51.560 NotebookApp] Starting buffering for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:08:56.598 NotebookApp] Kernel restarted: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:08:57.258 NotebookApp] Adapting to protocol v5.1 for kernel d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:08:57.258 NotebookApp] Restoring connection for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:08:57.258 NotebookApp] Replaying 1 buffered messages
+[I 21:09:51.552 NotebookApp] Saving file at /Black_Jack.ipynb
+[I 21:09:53.874 NotebookApp] Starting buffering for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:09:58.912 NotebookApp] Kernel restarted: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:09:58.923 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:09:59.583 NotebookApp] Adapting to protocol v5.1 for kernel d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:09:59.584 NotebookApp] Restoring connection for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:09:59.584 NotebookApp] Replaying 3 buffered messages
+[I 21:11:29.793 NotebookApp] Starting buffering for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:11:34.829 NotebookApp] Kernel restarted: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:11:35.471 NotebookApp] Adapting to protocol v5.1 for kernel d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:11:35.472 NotebookApp] Restoring connection for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:11:53.916 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:12:28.696 NotebookApp] Kernel interrupted: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:12:35.169 NotebookApp] Starting buffering for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:12:40.208 NotebookApp] Kernel restarted: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:12:40.852 NotebookApp] Adapting to protocol v5.1 for kernel d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 21:12:40.852 NotebookApp] Restoring connection for d8d94a26-983c-4a2c-98cc-e7fc9298b01b:c9f96693c5db47d797032163a4844db3
+[I 21:13:53.915 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:14:20.248 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:15:46.468 NotebookApp] Creating new notebook in
+[I 21:15:47.110 NotebookApp] Kernel started: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 21:15:47.801 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 21:15:53.918 NotebookApp] Saving file at /Paulsen_BlackJack.ipynb
+[I 21:17:33.142 NotebookApp] Saving file at /Untitled5.ipynb
+[I 21:19:47.106 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 21:21:47.107 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 22:14:05.556 NotebookApp] Kernel started: ff4e45c4-656c-498d-88c4-14c4d7fd354b
+[I 22:14:07.381 NotebookApp] Adapting to protocol v5.1 for kernel ff4e45c4-656c-498d-88c4-14c4d7fd354b
+[I 09:32:13.729 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:33:19.482 NotebookApp] Kernel restarted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:33:21.558 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:34:13.966 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:38:13.724 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:38:20.493 NotebookApp] Kernel restarted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:38:22.270 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:38:59.453 NotebookApp] Kernel restarted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:39:01.471 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:40:13.742 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:42:13.721 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:43:20.863 NotebookApp] Kernel restarted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:43:22.549 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:44:13.958 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:47:53.569 NotebookApp] Kernel interrupted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:48:13.719 NotebookApp] Saving file at /Paulsen Blackjack Final.ipynb
+[I 09:49:04.942 NotebookApp] Kernel interrupted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:49:19.207 NotebookApp] Kernel restarted: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:49:20.962 NotebookApp] Adapting to protocol v5.1 for kernel d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 09:49:38.358 NotebookApp] Starting buffering for ff4e45c4-656c-498d-88c4-14c4d7fd354b:2bfbfbf8d35d40f0810f9560e51753ae
+[I 09:49:41.220 NotebookApp] Starting buffering for 669013fd-f3a7-43e9-a4ea-d35e378f567b:6bd6fe46ad4f40e59395e85828abebe6
+[I 10:15:32.540 NotebookApp] Interrupted...
+[I 10:15:32.542 NotebookApp] Shutting down 4 kernels
+[I 10:15:37.697 NotebookApp] Kernel shutdown: 669013fd-f3a7-43e9-a4ea-d35e378f567b
+[I 10:15:42.832 NotebookApp] Kernel shutdown: d8d94a26-983c-4a2c-98cc-e7fc9298b01b
+[I 10:15:42.833 NotebookApp] Kernel shutdown: d2fab3cb-f950-4bf0-a676-ec2a268310cc
+[I 10:15:42.835 NotebookApp] Kernel shutdown: ff4e45c4-656c-498d-88c4-14c4d7fd354b
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_3_folder>cd C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>conda create --name flask_apps
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.4
+  latest version: 4.5.11
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\kelle\AppData\Local\conda\conda\envs\flask_apps
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use:
+# > activate flask_apps
+#
+# To deactivate an active environment, use:
+# > deactivate
+#
+# * for power-users using bash, you must source
+#
+
+
+C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>conda activate flask_apps
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>conda install flask
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.4
+  latest version: 4.5.11
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\kelle\AppData\Local\conda\conda\envs\flask_apps
+
+  added / updated specs:
+    - flask
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2018.8.24          |           py37_1         140 KB
+    itsdangerous-0.24          |           py37_1          20 KB
+    wincertstore-0.2           |           py37_0          13 KB
+    python-3.7.0               |       hea74fb7_0        21.1 MB
+    click-6.7                  |           py37_0         105 KB
+    setuptools-40.2.0          |           py37_0         575 KB
+    pip-10.0.1                 |           py37_0         1.7 MB
+    werkzeug-0.14.1            |           py37_0         422 KB
+    wheel-0.31.1               |           py37_0          80 KB
+    jinja2-2.10                |           py37_0         183 KB
+    flask-1.0.2                |           py37_1         137 KB
+    markupsafe-1.0             |   py37hfa6e2cd_1          27 KB
+    ------------------------------------------------------------
+                                           Total:        24.5 MB
+
+The following NEW packages will be INSTALLED:
+
+    certifi:        2018.8.24-py37_1
+    click:          6.7-py37_0
+    flask:          1.0.2-py37_1
+    itsdangerous:   0.24-py37_1
+    jinja2:         2.10-py37_0
+    markupsafe:     1.0-py37hfa6e2cd_1
+    pip:            10.0.1-py37_0
+    python:         3.7.0-hea74fb7_0
+    setuptools:     40.2.0-py37_0
+    vc:             14-h0510ff6_3
+    vs2015_runtime: 14.0.25123-3
+    werkzeug:       0.14.1-py37_0
+    wheel:          0.31.1-py37_0
+    wincertstore:   0.2-py37_0
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+certifi-2018.8.24    |  140 KB | ############################################################################## | 100%
+itsdangerous-0.24    |   20 KB | ############################################################################## | 100%
+wincertstore-0.2     |   13 KB | ############################################################################## | 100%
+python-3.7.0         | 21.1 MB | ############################################################################## | 100%
+click-6.7            |  105 KB | ############################################################################## | 100%
+setuptools-40.2.0    |  575 KB | ############################################################################## | 100%
+pip-10.0.1           |  1.7 MB | ############################################################################## | 100%
+werkzeug-0.14.1      |  422 KB | ############################################################################## | 100%
+wheel-0.31.1         |   80 KB | ############################################################################## | 100%
+jinja2-2.10          |  183 KB | ############################################################################## | 100%
+flask-1.0.2          |  137 KB | ############################################################################## | 100%
+markupsafe-1.0       |   27 KB | ############################################################################## | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>conda list
+# packages in environment at C:\Users\kelle\AppData\Local\conda\conda\envs\flask_apps:
+#
+# Name                    Version                   Build  Channel
+certifi                   2018.8.24                py37_1
+click                     6.7                      py37_0
+flask                     1.0.2                    py37_1
+itsdangerous              0.24                     py37_1
+jinja2                    2.10                     py37_0
+markupsafe                1.0              py37hfa6e2cd_1
+pip                       10.0.1                   py37_0
+python                    3.7.0                hea74fb7_0
+setuptools                40.2.0                   py37_0
+vc                        14                   h0510ff6_3
+vs2015_runtime            14.0.25123                    3
+werkzeug                  0.14.1                   py37_0
+wheel                     0.31.1                   py37_0
+wincertstore              0.2                      py37_0
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>atom .
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>git init
+Initialized empty Git repository in C:/Users/kelle/Documents/Coding Temple Course 2018/week_4_folder/basic_folder/.git/
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>echo>.gitignore
+
+(flask_apps) C:\Users\kelle\Documents\Coding Temple Course 2018\week_4_folder\basic_folder>
